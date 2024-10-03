@@ -1,12 +1,18 @@
 {
   "name": "demo-node-cmd-tool",
   "version": "1.0.0",
-  "description": "This demos how to make a package.",
+  "description": "This demos how to make a node package.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "node add-two-numbers.js",
+    "hello": "node hello.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^6.0.1"
+  }
 }
