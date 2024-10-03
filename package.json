@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This demos how to make a node package.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "node add-two-numbers.js",
